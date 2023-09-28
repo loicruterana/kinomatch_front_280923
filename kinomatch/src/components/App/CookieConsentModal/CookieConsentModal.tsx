@@ -16,9 +16,9 @@ function CookieConsentModal() {
     setCookie('cookieConsent', true, { path: '/' });
   };
 
-  // if (cookies.cookieConsent) {
-  //   return null;
-  // }
+  if (cookies.cookieConsent) {
+    return;
+  }
   
   return (
     <div className="cookie-consent-modal__background">
