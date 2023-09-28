@@ -17,7 +17,7 @@ function CookieConsentModal() {
   };
 
   if (cookies.cookieConsent) {
-    return;
+    return null;
   }
   
   return (
