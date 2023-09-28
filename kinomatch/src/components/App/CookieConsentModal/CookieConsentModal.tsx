@@ -11,7 +11,7 @@ import "./CookieConsentModal.scss";
 function CookieConsentModal() {
   const [cookies, setCookie] = useCookies(['cookieConsent']);
 
-  // On créer la fonction permettant de mettre à jour le consentement
+  // On créer la fonction permettant de mettre à jour le consentement des cookies
   const giveCookieConsent = () => {
     setCookie('cookieConsent', true, { path: '/' });
   };
