@@ -1,4 +1,4 @@
-// ================ IMPORT BIBLIOTHEQUES ================
+// =============== IMPORT BIBLIOTHEQUES ================
 
 import { useCookies } from "react-cookie";
 
